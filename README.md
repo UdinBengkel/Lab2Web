@@ -1,5 +1,4 @@
 # Lab2Web
-html &amp; css
 
 ## Nama: Syafarudiansya
 ## NIM: 312410381
