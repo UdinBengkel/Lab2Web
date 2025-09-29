@@ -10,7 +10,7 @@
 
 CSS internal adalah cara menulis aturan CSS langsung di dalam file HTML dengan menggunakan tag <style> di bagian <head>. Dengan cara ini, styling untuk elemen-elemen di halaman bisa diatur tanpa harus bikin file CSS terpisah.
 
-```html
+```html css
 <head>
     <title>CSS Dasar</title>
     <style>
