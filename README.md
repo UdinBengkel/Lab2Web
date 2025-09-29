@@ -35,3 +35,12 @@ CSS internal adalah cara menulis aturan CSS langsung di dalam file HTML dengan m
 ```
 <img src="gambar/1.png" width="500"/>
 
+2. Menambahkan Inline CSS
+Inline CSS adalah cara memberi gaya langsung ke elemen HTML lewat atribut style di dalam tag elemen tersebut. Jadi aturan CSS hanya berlaku pada elemen yang ditulis, bukan ke elemen lain.
+
+```html
+<p style="text-align: center; color: #ccd8e4;">Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman
+Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
+adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
+dan CSS.</>
+```
