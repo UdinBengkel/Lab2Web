@@ -107,3 +107,33 @@ background: #E42A42;
 }
 ```
 <img src="gambar/5.png" width="500"/>
+
+Pertanyaan dan Tugas
+
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS
+dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+```css
+#intro {
+  background: linear-gradient(to right, #418fb1, #2c3e50);
+  border: 2px dashed #099249;
+  min-height: 150px;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+```
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan
+penjelasannya!
+Selector h1 {} berlaku untuk semua elemen `<h1>`, sedangkan `#intro h1 {}` hanya berlaku untuk `<h1>` di dalam elemen dengan `id="intro"`, dan karena lebih spesifik maka #intro h1 akan menang jika ada konflik.
+
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada
+elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan
+penjelasan dan contohnya!
+Prioritas CSS adalah inline > internal/eksternal tergantung urutan > selector paling spesifik. Jadi inline style selalu mengalahkan yang lain, lalu aturan terakhir dengan spesifisitas lebih tinggi yang dipakai. Contoh: jika `<h1 id="judul" style="color: red;">` dan di file CSS eksternal ada `#judul { color: blue; }` maka warna yang terlihat tetap merah karena inline menang.
+
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut
+terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser?
+Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
+Jika elemen punya ID dan class, maka deklarasi ID akan menang atas class karena spesifisitas ID lebih tinggi. Jadi `#paragraf-1 {}` akan mengoverride `.text-paragraf {} `bila properti yang sama didefinisikan. Contoh: untuk elemen `<p id="paragraf-1" class="text-paragraf">`, jika CSS berisi .text-paragraf { font-size: 14px; color: black; } dan #paragraf-1 { color: green; } maka teks akan berukuran 14px dan berwarna hijau karena aturan color dari ID mengalahkan color dari class.
