@@ -5,7 +5,7 @@ html &amp; css
 ## NIM: 312410381
 ## Kelas: TI 24 A6
 
-## Penjelasan Praktikum
+### Penjelasan Praktikum
 
 1. Mendeklarasikan CSS Internal
 
