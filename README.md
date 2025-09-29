@@ -8,6 +8,7 @@ html &amp; css
 Penjelasan Praktikum
 
 1. Mendeklarasikan CSS Internal
+
 CSS internal adalah cara menulis aturan CSS langsung di dalam file HTML dengan menggunakan tag <style> di bagian <head>. Dengan cara ini, styling untuk elemen-elemen di halaman bisa diatur tanpa harus bikin file CSS terpisah.
 
 ```html
@@ -36,6 +37,7 @@ CSS internal adalah cara menulis aturan CSS langsung di dalam file HTML dengan m
 <img src="gambar/2.png" width="500"/>
 
 2. Menambahkan Inline CSS
+
 Inline CSS adalah cara memberi gaya langsung ke elemen HTML lewat atribut style di dalam tag elemen tersebut. Jadi aturan CSS hanya berlaku pada elemen yang ditulis, bukan ke elemen lain.
 
 ```html
@@ -47,6 +49,7 @@ dan CSS.</>
 <img src="gambar/3.png" width="500"/>
 
 3. Membuat CSS Eksternal
+
 CSS eksternal artinya aturan gaya (style) disimpan di file terpisah, misalnya style.css, lalu dipanggil ke dalam file HTML dengan `<link rel="stylesheet" href="style.css">` di bagian <head>. Jadi, HTML hanya berisi struktur konten (judul, paragraf, gambar, navigasi, dll), sementara file CSS khusus mengatur tampilannya (warna, ukuran, posisi, margin, padding, dsb).
 
 ```html
@@ -75,6 +78,7 @@ nav a:hover {
 <img src="gambar/3.png" width="500"/>
 
 4. Menambahkan CSS Selector
+
 CSS Selector dipakai untuk memilih elemen HTML agar bisa diberi gaya. ID Selector `#` digunakan untuk elemen unik dalam halaman, sedangkan Class Selector `.` bisa dipakai berulang kali pada banyak elemen sehingga lebih fleksibel.
 
 ```css
