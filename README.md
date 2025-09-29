@@ -5,7 +5,7 @@ html &amp; css
 ## NIM: 312410381
 ## Kelas: TI 24 A6
 
-Penjelasan Praktikum
+## Penjelasan Praktikum
 
 1. Mendeklarasikan CSS Internal
 
@@ -108,7 +108,7 @@ background: #E42A42;
 ```
 <img src="gambar/5.png" width="500"/>
 
-Pertanyaan dan Tugas
+### Pertanyaan dan Tugas
 
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS
 dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
