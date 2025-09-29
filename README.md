@@ -33,4 +33,5 @@ CSS internal adalah cara menulis aturan CSS langsung di dalam file HTML dengan m
     </style>
 </head>
 ```
-![1](gambar/1.png)
+<img src="gambar/1.png.png" alt="penjelasan" width="400"/>
+
