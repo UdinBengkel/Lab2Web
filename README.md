@@ -44,3 +44,4 @@ Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
 adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
 dan CSS.</>
 ```
+<img src="gambar/3.png" width="500"/>
