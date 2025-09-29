@@ -45,3 +45,30 @@ adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
 dan CSS.</>
 ```
 <img src="gambar/3.png" width="500"/>
+
+3. Membuat CSS Eksternal
+CSS eksternal artinya aturan gaya (style) disimpan di file terpisah, misalnya style.css, lalu dipanggil ke dalam file HTML dengan `<link rel="stylesheet" href="style.css">` di bagian <head>. Jadi, HTML hanya berisi struktur konten (judul, paragraf, gambar, navigasi, dll), sementara file CSS khusus mengatur tampilannya (warna, ukuran, posisi, margin, padding, dsb).
+
+```html
+<head>
+<link rel="stylesheet" href="style_eksternal.css" type="text/css">
+</head>
+```
+Isi css eksternal:
+
+```css
+nav {
+    background: #20A759;
+    color:#fff;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding:10px 20px;
+}
+nav .active,
+nav a:hover {
+    background: #0B6B3A;
+}
+```
