@@ -124,6 +124,8 @@ dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul
   box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 }
 ```
+<img src="gambar/6.png" width="500"/>
+
 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan
 penjelasannya!
 Selector h1 {} berlaku untuk semua elemen `<h1>`, sedangkan `#intro h1 {}` hanya berlaku untuk `<h1>` di dalam elemen dengan `id="intro"`, dan karena lebih spesifik maka #intro h1 akan menang jika ada konflik.
