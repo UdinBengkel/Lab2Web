@@ -72,3 +72,34 @@ nav a:hover {
     background: #0B6B3A;
 }
 ```
+<img src="gambar/3.png" width="500"/>
+
+4. Menambahkan CSS Selector
+CSS Selector dipakai untuk memilih elemen HTML agar bisa diberi gaya. ID Selector `#` digunakan untuk elemen unik dalam halaman, sedangkan Class Selector `.` bisa dipakai berulang kali pada banyak elemen sehingga lebih fleksibel.
+
+```css
+#intro {
+background: #418fb1;
+border: 1px solid #099249;
+min-height: 100px;
+padding: 10px;
+}
+#intro h1 {
+text-align: left;
+border: 0;
+color: #fff;
+}
+/* Class Selector */
+.button {
+padding: 15px 20px;
+background: #bebcbd;
+color: #fff;
+display: inline-block;
+margin: 10px;
+text-decoration: none;
+}
+.btn-primary {
+background: #E42A42;
+}
+```
+<img src="gambar/5.png" width="500"/>
