@@ -1,4 +1,4 @@
-# Lab2Web
+# Praktikum 2: CSS Dasar
 
 ## Nama: Syafarudiansya
 ## NIM: 312410381
